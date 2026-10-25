@@ -8,6 +8,14 @@ node_modules/
 .env.*.local
 backend/.env
 
+# Python artifacts & DB
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+hotelpro.db
+
 # Build outputs
 dist/
 dist-ssr/
